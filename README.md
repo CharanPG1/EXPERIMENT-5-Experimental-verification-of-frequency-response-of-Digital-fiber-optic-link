@@ -1,4 +1,3 @@
-
 Exp 5 Experimental verification of frequency response of Digital fiber optic link
 # Digital Fiber Optic Link Analysis (600nm)
 
@@ -43,10 +42,9 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 
 ---
 
-
 ## BLOCK DIAGRAM
 
-*(Insert block diagram here)*
+<img width="890" height="529" alt="Screenshot 2025-11-11 192121" src="https://github.com/user-attachments/assets/435b8e26-0b42-493e-9d58-2459aba62701" />
 
 ---
 
@@ -61,17 +59,31 @@ Fiber optic links can be used for transmission of digital as well as analog sign
 **Transmission through Digital Link**
 
 | Frequency (Hz) | Output Signal Amplitude (Vo) | Gain = Vo/Vi | Gain in dB |
-|----------------|------------------------------|--------------|------------|
-|                |                              |              |            |
+| -------------- | ---------------------------- | ------------ | ---------- |
+| 800 Hz         | 2.5 V                        | 0.5          | -8         |
+| 1 kHz          | 8 V                          | 6.4          | 16.12      |
+| 2 kHz          | 8.4 V                        | 6.8          | 16.66      |
+| 5 kHz          | 9.6 V                        | 7.2          | 17.14      |
+| 10 kHz         | 9.7 V                        | 7.4          | 17.38      |
+| 20 kHz         | 9.7 V                        | 7.4          | 17.38      |
+| 50 kHz         | 9.7 V                        | 7.4          | 17.38      |
+| 100 kHz        | 7.7 V                        | 5.4          | 14.64      |
+| 250 kHz        | 2.7 V                        | 2.84         | 8.09       |
 
 ---
 
 ## MODEL GRAPH
 
-*(Insert model graph here)*
+<img width="880" height="538" alt="Screenshot 2025-11-11 190804" src="https://github.com/user-attachments/assets/25ece563-cf37-448d-8b86-19078ca43f90" />
+
+---
+
+## GRAPH
+
+![WhatsApp Image 2025-11-17 at 11 00 29_38ae26e7](https://github.com/user-attachments/assets/a03e6750-8830-437e-b058-79ded44062f1)
 
 ---
 
 ## RESULT
 
-*(Summarize observations and conclusions here)*
+Thus, the experiment confirms that the 600 nm fiber optic link exhibits a stable frequency response within its mid-range and shows attenuation at higher frequencies, validating the theoretical characteristics of digital fiber transmission.
